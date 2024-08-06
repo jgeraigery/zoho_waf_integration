@@ -1,0 +1,27 @@
+# AWS parameters
+aws_region          = "us-east-1"
+project_name_tag    = "xxxxxxx"
+resource_name_tag   = "s.r.pillai@kyndryl.com"
+dynamodb_table      = "xxxxxxx"
+# Zoho parameters
+zoho_base_url   = "https://sprintsapi.zoho.in/zsapi/team"
+zoho_token_url  = "https://accounts.zoho.in/oauth/v2/token"
+zoho_team_id                = "xxxxxxx"
+zoho_project_id             = "xxxxxxx"
+zoho_sprint_id              = "xxxxxxx"
+zoho_sprint_item_type_id    = "xxxxxxx"
+zoho_risks_to_priority_mapping = {
+    "HIGH": "xxxxxxx",
+    "MEDIUM": "xxxxxxx",
+    "LOW": "xxxxxxx"
+}
+zoho_status_id_mapping = {
+    "xxxxxxx": "To do",
+    "xxxxxxx": "In progress",
+    "xxxxxxx": "Done"
+}
+
+# Zoho authentication variables
+zoho_client_id       = "xxxxxxx"
+zoho_client_secret   = "xxxxxxx"
+zoho_refresh_token   = "xxxxxxx"
